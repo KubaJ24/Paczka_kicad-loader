@@ -19,7 +19,7 @@ cp ~/Desktop/Programy/kicad_loader/kicad-loader-${VERSION}.deb pool/main/
 
 # Tworzenie paczek
 # dists/stable...
-dpkg-scanpackages pool /dev/null > dists/noble/main/binary-all/Packages
-gzip -f dists/noble/main/binary-all/Packages
+dpkg-scanpackages pool /dev/null > dists/noble/main/binary-amd64/Packages
+gzip -f dists/noble/main/binary-amd64/Packages
 
 echo "Paczki skopiowane do repozytorium 'kicad_loader_repo'"
