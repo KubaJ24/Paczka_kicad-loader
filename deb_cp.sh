@@ -15,7 +15,7 @@ echo "${PROG_NAME}"
 
 # Kopiowanie paczki .deb
 rm -R pool/main/*
-cp ~/Desktop/Programy/kicad_loader/kicad-loader-${VERSION}.deb pool/main/
+cp /home/sim/kicad_loader/kicad-loader-${VERSION}.deb pool/main/
 
 # Tworzenie paczek
 # dists/stable...
